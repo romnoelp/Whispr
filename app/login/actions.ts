@@ -12,10 +12,6 @@ export async function login(formData: FormData) {
   // in practice, you should validate your inputs
   const data = {
     email: formData.get("email") as string,
-<<<<<<< HEAD
-    displayName: formData.get("displayName") as string,
-=======
->>>>>>> 574206ae0777819cbedf205449d82c51313df2f9
     password: formData.get("password") as string,
   };
 
@@ -36,10 +32,6 @@ export async function signup(formData: FormData) {
   // in practice, you should validate your inputs
   const data = {
     email: formData.get("email") as string,
-<<<<<<< HEAD
-    displayName: formData.get("displayName") as string,
-=======
->>>>>>> 574206ae0777819cbedf205449d82c51313df2f9
     password: formData.get("password") as string,
   };
 
