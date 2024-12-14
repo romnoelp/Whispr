@@ -2,7 +2,6 @@
 
 import React from "react";
 import { Button } from "../ui/button";
-import { sign } from "crypto";
 import signInWithGoogle from "@/app/login/actions";
 
 const GoogleButton = () => {

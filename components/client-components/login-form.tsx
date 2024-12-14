@@ -11,7 +11,7 @@ export function LoginForm() {
   return (
     <Card className="mx-auto max-w-sm">
       <CardHeader>
-        <CardTitle className="text-2xl">Login</CardTitle>
+        <CardTitle className="text-2xl">Whispr</CardTitle>
         <CardDescription>
           Use your google account to continue to the app.
         </CardDescription>
