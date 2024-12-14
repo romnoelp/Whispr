@@ -5,8 +5,9 @@ import { Button } from "../ui/button";
 export const LogoutButton = () => {
   return (
     <form action={logout}>
-      <Button type="submit">Logout</Button>
+      <Button variant={"link"} type="submit">
+        <span>Logout</span>
+      </Button>
     </form>
   );
 };
- 
